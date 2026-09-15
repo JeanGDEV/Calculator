@@ -6,3 +6,15 @@
 .display > input {
     text-align: right;
 }
+
+
+/** CALCULATOR BODY **/
+
+.calculator {
+    border: 1px solid black;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
