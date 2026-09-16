@@ -12,6 +12,8 @@ body {
     background: #131212;
 }
 
+/** INPUT DISPLAY SECTION **/
+
 .display > input {
     background: rgb(27, 165, 27);
     border: 2px solid white;
@@ -44,6 +46,12 @@ body {
     box-shadow: 0 0 30px black;
 }
 
+input, button {
+    font-size: 3em;
+}
+
+/** METHOD BUTTONS SECTION **/
+
 .method-buttons {
     margin: 10px 0;
     display: flex;
@@ -54,9 +62,7 @@ body {
     flex-grow: 1;
 }
 
-input, button {
-    font-size: 3em;
-}
+/** NUMBERS & OPERATORS SECTION **/
 
 .container-op-dg {
     display: flex;
@@ -87,3 +93,4 @@ input, button {
 .operator-buttons > .operator-btn {
     padding: 5px 10px;
 }
+
