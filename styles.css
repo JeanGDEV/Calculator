@@ -98,6 +98,13 @@ input, button {
 .digit-buttons > button {
     flex-basis: 0;
     min-width: 100px;
+    border: none;
+    transition: background 0.2s, color 0.2s;
+}
+
+.digit-buttons > button:hover {
+    background: brown;
+    color: white;
 }
 
 .operator-buttons {
