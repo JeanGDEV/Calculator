@@ -50,6 +50,9 @@ input, button {
     font-size: 3em;
 }
 
+button {
+    cursor: pointer;
+}
 /** METHOD BUTTONS SECTION **/
 
 .method-buttons {
