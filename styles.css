@@ -2,6 +2,12 @@
     appearance: none;
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 
 .display > input {
     text-align: right;
