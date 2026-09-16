@@ -13,10 +13,23 @@ body {
 }
 
 .display > input {
+    background: rgb(27, 165, 27);
+    border: 2px solid white;
+    border-radius: 3px;
     text-align: right;
     width: 100%;
+    transition: border-color 0.3s, box-shadow 0.3s;
 }
 
+.display > input:focus {
+    outline: none;
+}
+
+
+.display > input:focus-visible{
+    border-color: #2563eb; 
+    box-shadow: 0 0 10px rgb(160, 160, 32);
+}
 
 /** CALCULATOR BODY **/
 
@@ -28,6 +41,7 @@ body {
     padding: 10px;
     min-height: 500px;
     background: #222;
+    box-shadow: 0 0 30px black;
 }
 
 .method-buttons {
