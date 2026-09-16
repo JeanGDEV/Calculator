@@ -108,5 +108,12 @@ input, button {
 
 .operator-buttons > .operator-btn {
     padding: 5px 10px;
+    background-color: yellow;
+    border: none;
+    transition: color 0.2s, background-color 0.2s;
 }
 
+.operator-buttons > .operator-btn:hover {
+    color: white;
+    background-color: rgb(223, 195, 40);
+}
