@@ -19,14 +19,53 @@
 
 .calculator {
     border: 1px solid black;
-    max-width: 500px;
+    max-width: 400px;
     margin: auto;
     margin-top: 40px;
     padding: 10px;
+    min-height: 500px;
+}
 
+.method-buttons {
+    margin: 10px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.method-buttons > button {
+    flex-grow: 1;
 }
 
 input, button {
     font-size: 3em;
 }
 
+.container-op-dg {
+    display: flex;
+    gap: 10px;
+    height: 100%;
+}
+
+.digit-buttons {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-grow: 1;
+    gap: 5px;
+
+}
+.digit-buttons > button {
+    flex-basis: 0;
+    min-width: 100px;
+}
+
+.operator-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.operator-buttons > .operator-btn {
+    padding: 5px 10px;
+}
